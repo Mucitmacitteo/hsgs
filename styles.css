@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #1a1a1a;
+    color: white;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(45deg, #ff5733, #c70039);
+    padding: 20px;
+    font-size: 24px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.box {
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.box:hover {
+    background-color: #444;
+}
+
+.box a {
+    color: white; /* Bağlantılar tamamen beyaz */
+    text-decoration: none;
+}
+
+footer {
+    background-color: #111;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
